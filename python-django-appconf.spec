@@ -13,6 +13,7 @@ BuildArch:      noarch
  
 BuildRequires:  python-devel
 BuildRequires:  python-sphinx
+BuildRequires:	python-setuptools
 
 Requires:   python-django
 
