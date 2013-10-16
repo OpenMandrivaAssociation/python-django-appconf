@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   django-appconf-0.5.tar.gz: 517b54713e9f6ec07f8e0df362d2cd886e82e87a
+sources:
+  django-appconf-0.6.tar.gz: e70f65cf9042ab9f62bc1d1a63cc3df6f7f5a9da

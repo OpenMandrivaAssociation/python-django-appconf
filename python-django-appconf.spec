@@ -1,14 +1,14 @@
 %global pypi_name django-appconf
 
 Name:           python-%{pypi_name}
-Version:        0.5
+Version:        0.6
 Release:        1
 Summary:        A helper class for handling configuration defaults of packaged apps gracefully
 Group:		Development/Python
 
 License:        BSD
 URL:            http://pypi.python.org/pypi/django-appconf/0.5
-Source0:        http://pypi.python.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:        http://pypi.python.org/packages/source/d/django-appconf/django-appconf-%{version}.tar.gz
 BuildArch:      noarch
  
 BuildRequires:  python-devel
@@ -40,5 +40,6 @@ rm -rf html/.{doctrees,buildinfo}
 
 %files
 %doc html README.rst LICENSE
-%{python_sitelib}/appconf
-%{python_sitelib}/django_appconf-%{version}-py?.?.egg-info
+%{py_puresitedir}/appconf
+%{py_puresitedir}/django_appconf-%{version}-py?.?.egg-info
+
