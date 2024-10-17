@@ -7,7 +7,7 @@ Summary:        A helper class for handling configuration defaults of packaged a
 Group:		Development/Python
 
 License:        BSD
-URL:            http://pypi.python.org/pypi/django-appconf/0.5
+URL:            https://pypi.python.org/pypi/django-appconf/0.5
 Source0:        http://pypi.python.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
  
